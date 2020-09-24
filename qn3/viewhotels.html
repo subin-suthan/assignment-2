@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="http://localhost:5000/gethotellist">
+      <b>Get Hotel List</b>
+      <input type="submit" value="Get Hotel List" name="h1" />
+    </form>
+
+    <br /><br />
+
+    <form action="http://localhost:5000/gethotelbycity ">
+      <b>Search by City</b> <input type="text" name="city" />
+      <input type="submit" value="Click to Search" />
+    </form>
+
+    <br /><br />
+
+    <form action="http://localhost:5000/type">
+      <b>Choose hotels by type (Veg/Non Veg)</b>
+      <select name="srch">
+        <option>----select hotels by type-----</option>
+
+        <option value="Veg">Veg</option>
+        <option value="Non veg">Non veg</option>
+      </select>
+      <input type="submit" />
+    </form>
+    <br />
+
+    <form action="http://localhost:5000/cuisine">
+      <b>Select Hotels by cuisine (Indian/Chinese)</b>
+      <select name="cus">
+        <option>----select hotels by cuisine-----</option>
+
+        <option value="indian">Indian</option>
+        <option value="chinese">Chinese</option>
+      </select>
+      <input type="submit" />
+    </form>
+  </body>
+</html>

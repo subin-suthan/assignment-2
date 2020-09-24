@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Akshaya",
+    "city": "Mysore",
+    "type": "Veg",
+    "cuisine": ["indian", "chinese"]
+  },
+  {
+    "name": "Oberoi",
+    "city": "Mumabi",
+    "type": "Non veg",
+    "cuisine": ["indian", "chinese"]
+  },
+  {
+    "name": "Muscat",
+    "city": "Tvm",
+    "type": "Veg",
+    "cuisine": ["indian", "chinese"]
+  },
+  {
+    "name": "leela",
+    "city": "Kovalam",
+    "type": "Non veg",
+    "cuisine": ["indian", "chinese"]
+  },
+  {
+    "name": "Paradise",
+    "city": "Hyyderabad",
+    "type": "Veg",
+    "cuisine": ["indian", "chinese"]
+  }
+]
